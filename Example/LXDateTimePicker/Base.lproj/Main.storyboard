@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CgX-3a-Yry">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="HrF-4M-B4L">
+            <objects>
+                <viewController id="CgX-3a-Yry" customClass="ViewController" customModule="LXDateTimePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EwE-Ui-o0L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRF-lO-gjY">
+                                <rect key="frame" x="156.5" y="506" width="62" height="30"/>
+                                <state key="normal" title="打印日期"/>
+                                <connections>
+                                    <action selector="logDate" destination="CgX-3a-Yry" eventType="touchUpInside" id="zYd-gw-CEu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DRF-lO-gjY" firstAttribute="centerX" secondItem="EwE-Ui-o0L" secondAttribute="centerX" id="MJ4-WN-AJ3"/>
+                            <constraint firstItem="LoE-ix-jqq" firstAttribute="bottom" secondItem="DRF-lO-gjY" secondAttribute="bottom" constant="131" id="T9r-Fr-okP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LoE-ix-jqq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVV-Ki-Oko" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>

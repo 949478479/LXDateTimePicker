@@ -1,0 +1,16 @@
+PODS:
+  - LXDateTimePicker (0.1.0)
+
+DEPENDENCIES:
+  - LXDateTimePicker (from `../`)
+
+EXTERNAL SOURCES:
+  LXDateTimePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXDateTimePicker: 41b5682fe01137b5fa6a3da749d1ab2844aec4a7
+
+PODFILE CHECKSUM: e8f71e4e221cdd8ba90cbc2c52acf1708601f12a
+
+COCOAPODS: 1.7.0

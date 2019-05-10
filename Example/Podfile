@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LXDateTimePicker_Example' do
+  pod 'LXDateTimePicker', :path => '../'
+
+  target 'LXDateTimePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

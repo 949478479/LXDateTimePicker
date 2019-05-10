@@ -1,0 +1,6 @@
+framework module LXDateTimePicker {
+  umbrella header "LXDateTimePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
